@@ -1,0 +1,78 @@
+.container.index{
+  .index-search{
+    background: #fff;
+    transition:all 0.3s ease-in-out;
+    border:0;
+    border: 0px solid;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 45px 45px 225px 75px/15px 225px 15px 255px;
+    padding: 50px;
+    border-color: #f9be4f;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+  }
+}
+
+.index-bottom-line{
+  background: #F9BE4F;
+  box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.07);
+  height: 15px;
+}
+
+.footer-holder{
+  background: #585453;
+  color: #fff;
+  padding: 25px 0px;
+}
+
+
+
+.index-background{
+  background: url(https://static.lakana.com/nxsglobal/feedsite/photo/2018/06/08/dogs-cats-GettyImages-107072782_44820025_ver1.0_1280_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 25px 0;
+}
+
+.servica-box-holder{
+  padding-top: 70px;
+  color: #585453;
+}
+
+.serviceBox{
+  margin-bottom:20px;
+  text-align: center;
+}
+.serviceBox .service-icon{
+  text-align: center;
+  line-height: 100px;
+  font-size: 120px;
+  transition:all 0.3s ease-in-out;
+}
+.serviceBox:hover .service-icon{
+  transform: scale(1.2);
+}
+.serviceBox .service-content{
+  margin-top: 60px;
+}
+.service-hover-box img {
+  transition: all 0.3s;
+}
+.service-hover-box .service-hover-caption {
+  bottom: 0px;
+  width: 100%;
+  text-align:center;
+  right: 0;
+  padding: 20px;
+  border-radius:20px;
+  transition: all 0.3s;
+  transform: translateY(0);
+}
+.service-hover-box .service-hover-caption h4, .service-hover-box .service-hover-caption p {
+  color: #ffffff;
+}
+.service-hover-box:hover .service-hover-caption {
+  transform: translateY(-18px);
+  box-shadow: 0 15px 15px -15px #000000;
+}

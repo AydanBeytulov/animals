@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Design
+@import 'general';
+@import 'index';
+@import "search";
+@import "flaticon";
+@import "view";
+@import "home";
+@import "addAnimal";

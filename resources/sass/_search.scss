@@ -1,0 +1,32 @@
+.nav-tabs .nav-link.active, .tab-content, .bg-light-custom, .team-style1, .accordion-cards .card-body, .testimonial .content, .navbar-toggler:hover {
+  background: #f7f7f7;
+}
+
+.card {
+  border: 0;
+  border-radius: 155px 45px 225px 75px/15px 125px 15px 155px;
+  padding: 20px;
+}
+
+.search-holder{
+  padding: 25px 0;
+}
+
+.search-image-holder{
+  height: 185px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.adopt-card {
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.adopt-card:hover {
+  margin-top: -20px;
+}
+
+.advanced-search-holder{
+  padding: 25px 0;
+
+}
